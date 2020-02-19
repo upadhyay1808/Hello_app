@@ -1,0 +1,38 @@
+name: mi_card
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - images/
+  fonts:
+    - family: Pattaya
+      fonts:
+        - asset: fonts/Pattaya-Regular.ttf
+          style: italic
+    - family: ZhiMangXing
+      fonts:
+        - asset: fonts/ZhiMangXing-Regular.ttf
+          style: italic
+
+
